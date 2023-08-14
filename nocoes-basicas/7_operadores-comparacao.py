@@ -1,0 +1,10 @@
+saldo = input('Insira o valor do saldo: ')
+saque = input('Insira o valor do saque: ')
+
+print('\nValores iguais?', saldo == saque)
+print('Valores diferentes?', saldo != saque)
+print('\nEm relação ao saque:')
+print('Saldo maior?', saldo > saque)
+print('Saldo maior ou igual?', saldo >= saque)
+print('Saldo menor?', saldo < saque)
+print('Saldo menor ou igual?', saldo <= saque)
